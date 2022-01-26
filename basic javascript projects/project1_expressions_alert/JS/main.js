@@ -8,6 +8,7 @@ document.write("Welcome to " + carLot + ". I'm the owner Danny " + owner + ". We
                                                                  //that can be altered depending on the change in 
                                                                  //lot name, owner and inventory on the lot.
 
-document.write(" And if you're looking for a motorcycle, You're in luck! We have ")
+document.write("<br>") //line break for spacing
 document.write(3+3);  //simple expression answer is shown at the end of the sentence above.
+
 
