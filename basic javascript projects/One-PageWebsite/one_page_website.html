@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dynamic Surroundings</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
+	</head>
+	
+	<body>
+	<!---Nav--->
+		<div>
+			<div>
+				<ul>
+					<a href="#Home" id="link"><li>Home</li></a>
+					<a href="#Example of our work"><li>Examples of Our Work</li></a>
+					<a href="#contact"><li>Free Consultations and Estimates</li></a>
+				</ul>
+			</div>
+		</div>
+	<!----End Nav---->
+		<!---home--->
+		
+			<div class="home">
+				<div class="logo">
+				<img src="one_page_images/logo.jpg" alt="River City Logo" style="width:50%;" width="300" height="450"> 
+				</div>	
+				<div id="Home">
+						
+						<header>
+							<h1>Finest Craftmanship in the River City<h1>
+						</header>
+							<div>
+								<p>Since 2010 our renovation techs have offered a mastery of skills to both residential and commercial patrons.<br>
+								Skilled in numerous trades, our well rounded craftsman have the transformative abilities to renovate any exterior or<br>
+								interior to suite the needs and luxuries of any request at competative rates. 
+								</p>
+								<details>
+								<summary>Owner Operator</summary>
+								<p>"We are able to offer the best product in our industry<br>
+								because we are collection of quality oriented tradesmen who<br>
+								value our work first and foremost.  We have made a point to<br>
+								find people that are like minded, in that they enjoy mastering<br>
+								their craft and being the best."</p>
+								</details>
+									<div>
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/qCPSQgY99j4"></iframe>
+							</div>
+					</div>	
+				</div>
+			</div>
+
+		<!----end home--->
+		<!---example of work---->
+		<div id ="Example of our work">
+			<h1>Here are some recent projects<h1>
+
+				<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="one_page_images/bathroom.jfif" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	
+	<div class="column">
+	  <img src="one_page_images/kitchen.jfif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+
+	<div class="column">
+		<img src="one_page_images/patio.jfif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	  </div>
+
+	  <div class="column">
+		<img src="one_page_images/wall.jfif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	  </div>
+  </div>
+
+				<!--------------The modal lightbox-------->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="one_page_images/bathroomwider.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="one_page_images/kitchenwide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="one_page_images/patiowide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="one_page_images/wallwide.jpg" style="width:100%">
+						</div>
+						
+						<!------Next/Previous controls-->
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<!------Caption text---->
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<!-----Thumbnail image controls------>
+						<div class="column">
+							<img class="demo" style="width: 100%;" src="one_page_images/bathroom.jfif" onclick="currentSlide(1)" alt="bathroom">
+						</div>
+
+						<div class="column">
+							<img class="demo" style="width: 100%;" src="one_page_images/kitchen.jfif" onclick="currentSlide(3)" alt="Kitchen">
+						</div>
+
+						<div class="column">
+							<img class="demo" style="width: 100%;" src="one_page_images/patio.jfif" onclick="currentSlide(4)" alt="Patio">
+						</div>
+
+						<div class="column">
+							<img class="demo" style="width: 100%;" src="one_page_images/wall.jfif" onclick="currentSlide(6)" alt="Retaining Wall">
+						</div>
+					</div>
+				</div>
+
+				<!----End Work examples----->
+				
+				<!------contacts------>
+		<section>
+			<div id="contact">
+				<div class="contacts">
+					<h2>Free Consultations and Estimates</h2>
+					<div>
+						<h2><span>Talk with one of our pros today</span></h2>
+							<p>Someone will reach out to you shortly</p>
+							<div>
+								<form action="" method="post">
+									<input class="lead" type="text" value="First Name">
+									<input class="lead" type="text" value="Last Name">
+									<input class="lead" type="text" value="Email Address">
+									<input class="lead" type="text" value="Phone Number">
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----End contact---->
+		
+		<!----footer---->
+		<footer>
+		<p>Located in the J-town area of Louisville Ky</p>
+	</footer>
+	</body>
+</html>
