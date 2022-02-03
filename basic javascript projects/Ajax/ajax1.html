@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>OnReadyStateChange</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>The XMLHttpRequest Object</h2>
+        <div id="Ajx">
+        <button type="button" onclick="loadDoc()">click to see text</button>
+        </div>
+
+        <script>
+           //This one's a little different than the other.
+            // uses the this.responseText
+            loadDoc = function() {
+                var ajax = new XMLHttpRequest();//function assigns var for new XMLHttpRequest
+                ajax.onload = function() {//nested function gets id of element and 
+                document.getElementById("Ajx").innerHTML = //uses the .responseText in callback
+                this.responseText;
+            }
+
+            ajax.open('GET', 'ajax1Content.html');//points to document containing data
+            ajax.send();//sends request for data
+        }  
+
+        </script>
+    </body>
+</html>    
