@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+    <script>
+          $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>basic jQuery</h>\
+                            <p id='1'>Click here to find p-4</p>\
+                            <p id='2'>jQuery</p>\
+                            <p id='3'>jQuery</p>\
+                            <p id='4'>I'm going to hide</p>\
+                        </div>\
+                    </div>\
+                </body>"
+
+            );          //these two actions don't happen in this written order
+            //assigns click function to <p1> to display <p4> 
+            $("#1").click(function() {
+                $("#4").show();
+            });//this toggle method is autonomous and happens first upon loading the page in the browser
+            $("#4").toggle( 4500 ); //hides <p4> over 1.5 seconds
+        });
+
+
+    </script> 
+    </body>   
+</html>
