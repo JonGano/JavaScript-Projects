@@ -2,9 +2,6 @@
 
 A few Projects I've made using JavaScript
 
-# HTML-and-CSS-Projects
-Tech Academy HTML and CSS School Projects
-
 ### Projects
 
 + [Calculator](https://github.com/JonGano/JavaScript-Projects/commit/0dbb211467c6a9d5ab19c53d11ba89c808dbcffa) 
