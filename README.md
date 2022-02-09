@@ -7,11 +7,11 @@ Tech Academy HTML and CSS School Projects
 
 ### Projects
 
-+*[Calculator]()
++ *[Calculator]() +
 
-+*[Pizza Menu]()
++ *[Pizza Menu]()+
 
-+*[Tic-Tac-Toe]()
++ *[Tic-Tac-Toe]()
 
 **Calculator** Simple calculator with the multipy, divide, add and subtract operators that also allows for decimal point equations.
 
