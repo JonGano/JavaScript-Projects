@@ -1,6 +1,6 @@
 # JavaScript-Projects
 
-A few Projects I've made using JavaScript
+JavaScript Program projects
 
 ### Projects
 
