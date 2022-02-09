@@ -7,9 +7,9 @@ Tech Academy HTML and CSS School Projects
 
 ### Projects
 
-+ *[Calculator]() +
++ *[Calculator]() 
 
-+ *[Pizza Menu]()+
++ [Pizza Menu]()
 
 + *[Tic-Tac-Toe]()
 
