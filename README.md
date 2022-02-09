@@ -11,7 +11,7 @@ Tech Academy HTML and CSS School Projects
 
 + [Pizza Menu]()
 
-+ [Tic-Tac-Toe]()
++ [Tic-Tac-Toe](https://github.com/JonGano/JavaScript-Projects/tree/main/basic%20javascript%20projects/TicTacToe)
 
 **Calculator** Simple calculator with the multipy, divide, add and subtract operators that also allows for decimal point equations.
 
